@@ -1,0 +1,89 @@
+.form {
+    position: relative;
+    z-index: 1;
+    background: #FFFFFF;
+    max-width: 260px;
+    margin: 0 auto 200px;
+    padding: 10px 45px 25px 45px;
+    text-align: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.form > .login-form{
+    position: relative;
+}
+
+.form > .login-form > h1{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 39px;
+
+    letter-spacing: -0.05em;
+    color: #212121;
+}
+
+.form > .login-form > p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #928B8B;
+}
+
+
+
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f2f2f2;
+    width: 100%;
+    
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+
+    border: 1px solid #8C8383;
+    border-radius: 8px;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #928B8B;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    background: #0096C7;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background: #3bc2ef;
+}
+
+
+.form > .login-form > .togglePass{
+    position: absolute;
+    bottom: 75px;
+    right: 10px;
+}
+
+
+.eye{
+    font-size: 20px;
+    color: #5e5e5e;
+}

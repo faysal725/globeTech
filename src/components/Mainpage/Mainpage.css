@@ -1,0 +1,164 @@
+.base{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+
+
+h1{
+    color:white;
+}
+
+
+.details {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  }
+
+.details > .atom{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  z-index: 1;
+}
+
+
+/* ellipses  */
+
+#ellipse1{
+  height: auto;
+  /* max-width: 700px;
+  width: 100%; */
+  width: 700px;
+  
+  overflow: visible;
+  overflow-wrap: normal;
+  position: relative;
+}
+
+
+#ellipse2{
+  height: auto;
+  width: 550px;
+  position: absolute;
+  transform: translateX(-70px) translateY(75px);
+  text-align: center;
+}
+
+
+
+
+#ellipse3{
+  height: auto;
+  width: 350px;
+  position: absolute;
+  transform: translateX(-160px) translateY(175px);
+}
+
+
+
+#ellipse4{
+  height: auto;
+  width: 180px;
+  position: absolute;
+  transform: translateX(-245px) translateY(260px);
+}
+
+
+/* planets  */
+
+#planet1{
+  height: 61.35px;
+  width: 61.35px;
+  position: absolute;
+  transform: translateX(-410px) translateY(-20px);
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+#planet2{
+  height: 38.93px;;
+  width: 38.93px;;
+  position: absolute;
+  transform: translateX(-318px) translateY(671px);
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+#planet3{
+  width: 41.29px;
+  height: 41.29px;
+  position: absolute;
+  transform: translateX(-162px) translateY(106px);
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+
+#planet4{
+  width: 37.75px;
+  height: 37.75px;
+  position: absolute;
+  transform: translateX(-67px) translateY(414px);
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+
+#planet5{
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  transform: translateX(-430px) translateY(426px);
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+
+#planet6{
+  width: 24.78px;
+  height: 24.78px;
+  position: absolute;
+  transform: translateX(-479px) translateY(261px);
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+
+
+.atom:hover > #planet1{
+  transform: translateX(-92px) translateY(51px);
+}
+
+
+.atom:hover > #planet2{
+  transform: translateX(-600px) translateY(546px);
+}
+
+.atom:hover > #planet3{
+  transform: translateX(-380px) translateY(65px);
+}
+
+.atom:hover > #planet4{
+  transform: translateX(-207px) translateY(576px);
+}
+
+.atom:hover > #planet5{
+  transform: translateX(-453px) translateY(249px);
+}
+
+.atom:hover > #planet6{
+  transform: translateX(-250px) translateY(180px);
+}
+
+@media only screen and (max-width: 950px) {
+  .details{
+    overflow: hidden;
+  }
+  .details > .atom{
+    transform: translateX(280px) translateY(350px) scale(0.6);
+  }
+
+  
+}

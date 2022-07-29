@@ -1,0 +1,46 @@
+
+
+.menu{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu img{
+    height: 45px;
+    width: 205px;
+}
+
+.menu > .menu-items{
+    display: flex;
+    margin-left: auto;
+}
+
+.menu > .menu-items> a{
+    text-decoration: none;
+    margin-right:15px;
+    color: #8FE5FF;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 32px;
+    transition-property:all;
+    transition-duration: 0.5s;
+}
+
+
+.menu >.menu-items> a:hover {
+    margin-left:20px;
+    color: #D7F561;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .menu{
+        flex-direction: column;
+        height: 200px;
+        justify-content: center;
+        align-content: center;
+    }
+}

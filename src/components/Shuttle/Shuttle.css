@@ -1,0 +1,53 @@
+.shuttle{
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+
+.shuttle > .movement{
+    width:85%;
+    display: flex;
+    align-items: center;
+    transform: translateX(0);
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+
+ .shuttle > .movement > .shuttle-fire > span{
+
+    width: 7vw;
+    height: 2px;
+    display: block;
+    background-color: #2397CD;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+
+.shuttle > .movement > img {
+    
+    width: 7vw;
+    min-width: 80px;
+}
+
+.movement:hover{
+    
+    transform: translateX(100%);
+}
+
+@media only screen and (max-width: 1100px) {
+    .shuttle > .movement{
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .shuttle > .movement{
+        width: 65%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .shuttle > .movement{
+        width: 50%;
+    }
+}

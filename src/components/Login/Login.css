@@ -1,0 +1,125 @@
+.login-page{
+    display: flex;
+    height: 100vh;
+    align-items: stretch;
+    position: relative;
+}
+
+
+.sideReturn > img{
+    transform: scale(1);
+}
+
+.sideReturn > img:hover{
+    transform: scale(1.5);
+}
+
+
+
+.sidebarSection{
+    display: none;
+    transition-property: all;
+    transition-duration: 1s;
+    z-index: 5;
+}
+
+
+.sidebar{
+    position: absolute;
+    height: 100%;
+    width: 242px;
+    background: linear-gradient(246.24deg, #00094D 0%, #000424 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+.companyName{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sideHeading{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #0096C7;
+    text-transform: uppercase;
+}
+
+.sideDescription{
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.15em;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
+
+
+.sideReturn{
+    margin-top: auto;
+    width: 20px;
+    margin-bottom:50px;
+}
+
+
+
+.login-page > .form-section{
+    background-color: #C0CDD3;
+    flex-grow: 1;
+
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+
+
+
+.login-page > .form-section > footer{
+    color:  #8B8282 
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    .sidebarSection{
+        display: block;
+        transform: translateX(-250px);
+        
+        transition-property: all;
+        transition-duration: 0.3s;
+    }
+    .sidebarSection:hover{
+        transform: translateX(0px);
+    }
+    
+ 
+    .companyName{
+        display: none;
+    }
+}

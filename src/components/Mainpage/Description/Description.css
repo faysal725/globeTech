@@ -1,0 +1,87 @@
+
+.description{
+  z-index: 5;
+  position: absolute;
+  width: 650px;
+  height: 86vh;
+  left: 0px;
+}
+    
+.text-part{
+  color: #28ACE2;
+}
+
+
+.text-part h1{
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 10vh;
+    color:#28ACE2
+}
+
+.text-part h1 span{
+  display: block;
+  background: -webkit-linear-gradient(#E3F891, #CBF231);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.text-part span{
+  background: -webkit-linear-gradient(#E3F891, #CBF231);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.text-part p{
+  font-weight: 400;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 1em;
+}
+
+
+.text-part > .btn-part {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  column-gap: 20px;
+}
+.text-part > .btn-part > .text-part-btn{
+  margin-top: 40px;
+  color: #8FE5FF;
+  background-color: transparent;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  width: 249px;
+  height: 72px;
+  left: 498px;
+  top: 952px;
+
+  border: 2px solid #8FE5FF;
+  border-radius: 4px;
+  transition-property: all;
+  transition-duration: 1s;
+}
+
+.text-part >.btn-part > .text-part-btn:hover{
+  color:#00052F;
+  background-image: linear-gradient(40deg, #DEF77D, #D0F344);
+  border: none;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 850px) {
+
+  .description{
+    width: 100%;
+  }
+
+  
+}
