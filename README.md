@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# How to install and run the project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Dependencies
+  fontawesome, React Router 
 
 ## Available Scripts
 
