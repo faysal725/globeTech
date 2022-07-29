@@ -1,4 +1,4 @@
-# How to install and run the project
+# How to install and run Globe Tech Project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
