@@ -1,5 +1,5 @@
 # Live Link
-  https://globe-tech-seven.vercel.app/login
+  https://globe-tech-seven.vercel.app/
 
 # How to install and run Globe Tech Project
 
